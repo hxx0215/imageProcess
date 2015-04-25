@@ -14,6 +14,8 @@
 		B9E36BB51A68E18200E5640E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9E36BB41A68E18200E5640E /* Images.xcassets */; };
 		B9E36BB81A68E18200E5640E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9E36BB61A68E18200E5640E /* LaunchScreen.xib */; };
 		B9E36BC41A68E18200E5640E /* ImageUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E36BC31A68E18200E5640E /* ImageUtilsTests.m */; };
+		B9E36BCF1A68E8A300E5640E /* imageForRead.png in Resources */ = {isa = PBXBuildFile; fileRef = B9E36BCE1A68E8A300E5640E /* imageForRead.png */; };
+		B9E36BD11A68ED4700E5640E /* lena.png in Resources */ = {isa = PBXBuildFile; fileRef = B9E36BD01A68ED4700E5640E /* lena.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		B9E36BBD1A68E18200E5640E /* ImageUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9E36BC21A68E18200E5640E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9E36BC31A68E18200E5640E /* ImageUtilsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageUtilsTests.m; sourceTree = "<group>"; };
+		B9E36BCE1A68E8A300E5640E /* imageForRead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageForRead.png; sourceTree = "<group>"; };
+		B9E36BD01A68ED4700E5640E /* lena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lena.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 		B9E36B9B1A68E18200E5640E = {
 			isa = PBXGroup;
 			children = (
+				B9E36BCD1A68E8A300E5640E /* Resources */,
 				B9E36BA61A68E18200E5640E /* ImageUtils */,
 				B9E36BC01A68E18200E5640E /* ImageUtilsTests */,
 				B9E36BA51A68E18200E5640E /* Products */,
@@ -117,6 +122,16 @@
 				B9E36BC21A68E18200E5640E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9E36BCD1A68E8A300E5640E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B9E36BCE1A68E8A300E5640E /* imageForRead.png */,
+				B9E36BD01A68ED4700E5640E /* lena.png */,
+			);
+			name = Resources;
+			path = ImageUtils/Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +215,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9E36BB31A68E18200E5640E /* Main.storyboard in Resources */,
+				B9E36BD11A68ED4700E5640E /* lena.png in Resources */,
+				B9E36BCF1A68E8A300E5640E /* imageForRead.png in Resources */,
 				B9E36BB81A68E18200E5640E /* LaunchScreen.xib in Resources */,
 				B9E36BB51A68E18200E5640E /* Images.xcassets in Resources */,
 			);
